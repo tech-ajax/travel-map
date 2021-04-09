@@ -56,31 +56,18 @@
         
         @if (Auth::check())
         <div class="open-box"> 
-            <li>
-                <form class="" action="{{url('/places/search')}}">
-                <input type="text" name="search" class="" placeholder="Search">
-                <input type="submit" value="検索" class="">
-                </form>
-            </li>
-             {{-- ユーザ詳細ページへのリンク --}}
-            <li><a href="{{ route('welcome') }}">{{ Auth::user()->name }}のページ</a></li>
-            {{-- ログアウトへのリンク --}}
-            <li>{!! link_to_route('logout.get', 'ログアウト') !!}</li>
+            <li>Search:<input></li>
+            <li><a href="">ご利用方法</a></li>
+            <li><a href="">登録</a></li>
+            <li><a href="">ログイン</a></li>
         </div>
         
         @else
         <div class="open-box"> 
-            <li>
-                <form class="" action="{{url('/places/search')}}">
-                <input type="text" name="search" class="" placeholder="Search">
-                <input type="submit" value="検索" class="">
-                </form>
-            </li>
-            <li><a href="{{ route('guide') }}">ご利用方法</a></li>
-            {{-- ユーザ登録ページへのリンク --}}
-            <li>{!! link_to_route('signup.get', '登録', [], ['class' => 'nav-link']) !!}</li>
-            {{-- ログインページへのリンク --}}
-            <li>{!! link_to_route('login', 'ログイン', [], ['class' => 'nav-link']) !!}</li>
+            <li>Search:<input></li>
+            <li><a href="">ご利用方法</a></li>
+            <li><a href="">登録</a></li>
+            <li><a href="">ログイン</a></li>
         </div>
         @endif
         

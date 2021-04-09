@@ -2,26 +2,48 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <title>Microposts</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <title>世界のレストラン in Tokyo</title>
+         <!--CSSのリンク先-->
+         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+         <meta name="description" content="東京・新小岩の庭つきシェアハウスです。">
+       
+        <!-- ファビコン -->
+        <link rel="icon" href="{{ asset('img/favicon.png') }}" alt="World Restaurant in Tokyo favicon">
+         
+        <!-- レスポンシブ -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+          <!-- マテリアルアイコン  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <style type="text/css">
+
+#map
+{
+	width: 100%;
+	height: 500px;
+}
+</style>
+    
+    
     </head>
 
     <body>
-
+        
         {{-- ナビゲーションバー --}}
         @include('commons.navbar')
 
-        <div class="container">
+        <div>
             {{-- エラーメッセージ --}}
             @include('commons.error_messages')
 
             @yield('content')
         </div>
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+        
+    <script type="text/javascript" src="{{ asset('/js/style.js') }}"></script>
+    
+    <!--Google Maps API-->
+    @include('apis.map')
+    
     </body>
 </html>
