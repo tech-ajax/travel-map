@@ -23,6 +23,8 @@ a {
 }
 
 
+
+
 /*　ヘッダー　*/
 
 .nav-container{
@@ -504,7 +506,7 @@ content: "";
 /*Google Maps API*/
 #map
 {
-	width: 100%;
+	width: auto;
 	height: 500px;
 }
 
