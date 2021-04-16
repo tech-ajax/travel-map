@@ -211,11 +211,14 @@
             </div>    
     @else
     
-                <div class="index-container">
                 <!--Google Maps API-->
                 <div id="map"></div>
                 
                 <!--Google Maps APIここまで-->
+                
+                
+                
+                <div class="index-container">
                     {{-- オーナー登録ページへのリンク --}}
                         {!! link_to_route('signup.get', '店舗登録はこちらから', [], ['class' => '']) !!}
                 <h1>店舗一覧</h1>
