@@ -5,7 +5,7 @@
         <title>世界のレストラン in Japan</title>
          <!--CSSのリンク先-->
          <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-         <meta name="description" content="世界のレストランを日本で楽しもう。">
+         <meta name="description" content="世界のレストランを日本で楽しもう♫">
        
         <!-- ファビコン -->
         <link rel="icon" href="{{ asset('img/favicon.png') }}" alt="World Restaurant in Tokyo favicon">
