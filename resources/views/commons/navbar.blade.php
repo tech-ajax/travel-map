@@ -1,8 +1,8 @@
 <header>
     <div class="nav-container">
             <div class="nav-logo">
-                <h1><a href="{{ route('welcome') }}"><img src="{{ asset('img/Logo.png') }}" alt="World Restaurant in Japan Logo"></a></h1>
-                <h2>日本で世界の料理をたべよう</h2>
+                <h1><a href="{{ route('welcome') }}"><img src="{{ asset('img/Logo.png') }}" alt="Travel Map"></a></h1>
+                <h2>タグ・キーワードで検索してブックマークしよう</h2>
             </div>
             <nav>
                 <ul class="main-nav">

@@ -14,7 +14,7 @@
                         <td>{!! Form::text('place_name', null, ['class' => 'input']) !!}</td>
                       </tr>
                       <tr>
-                        <td>{!! Form::label('country', '国・地域') !!}</td>
+                        <td>{!! Form::label('country', 'ジャンル') !!}</td>
                         <td>{!! Form::text('country', null, ['class' => 'input']) !!}</td>
                       </tr>
                       <tr>

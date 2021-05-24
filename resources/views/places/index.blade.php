@@ -34,7 +34,7 @@
                         <td>{{ $place->place_name }}</td>
                         </tr>
                         <tr>
-                        <td>国・地域</td>
+                        <td>ジャンル</td>
                         <td>{{ $place->country }}</td>
                         </tr>
                         <tr>
