@@ -13,7 +13,7 @@
                 {!! Form::model($place, ['route' => 'places.store','enctype'=>'multipart/form-data']) !!}
                 <tbody>
                       <tr>
-                        <td>{!! Form::label('place_name', '店名') !!}</td>
+                        <td>{!! Form::label('place_name', '名前') !!}</td>
                         <td>{!! Form::text('place_name', null, ['class' => 'input']) !!}</td>
                       </tr>
                       <tr>

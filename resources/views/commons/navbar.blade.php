@@ -2,7 +2,7 @@
     <div class="nav-container">
             <div class="nav-logo">
                 <h1><a href="{{ route('welcome') }}"><img src="{{ asset('img/Logo.png') }}" alt="Travel Map"></a></h1>
-                <h2>タグ・キーワードで検索してブックマークしよう</h2>
+                <h3>タグ・キーワードで検索してブックマークしよう</h3>
             </div>
             <nav>
                 <ul class="main-nav">

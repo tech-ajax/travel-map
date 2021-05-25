@@ -54,7 +54,7 @@ a {
 }
 
 .nav-logo img{
-  margin:0 2rem;
+  margin:0.35rem 0.5rem;
 }
 
 .main-nav{
@@ -96,7 +96,7 @@ a {
   bottom:0;
   right:0;
   left:0;
-  background: rgb(228 224 216 / 95%);
+  background: rgb(255 251 244 / 95%);
   text-align:center;
   display:flex;
   flex-direction: column;
@@ -134,7 +134,7 @@ a {
 }
 
 /* ヘッダー　Mobile */
-@media (max-width:1000px){
+@media (max-width:1300px){
   ul.main-nav{
     display:none;
   }

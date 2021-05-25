@@ -32,7 +32,7 @@
                                     <!--</tr> -->
             
                                     <tr>
-                                    <td>店名</td>
+                                    <td>名前</td>
                                     <td>{{ $place->place_name }}</td>
                                     </tr>
                                     <tr>

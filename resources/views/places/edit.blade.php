@@ -4,13 +4,13 @@
     @if (Auth::check())
         @if (Auth::id() == $place->user_id);
         <div class="create-container">
-            <h1>店名: {{ $place->place_name }} の編集ページ</h1>
+            <h1>名前: {{ $place->place_name }} の編集ページ</h1>
             <table>
                 {!! Form::model($place, ['route' => ['places.update', $place->id], 'method' => 'put' , 'enctype'=>'multipart/form-data']) !!}
             
                 <tbody>
                       <tr>
-                        <td>{!! Form::label('place_name', '店名') !!}</td>
+                        <td>{!! Form::label('place_name', '名前') !!}</td>
                         <td>{!! Form::text('place_name', null, ['class' => 'input']) !!}</td>
                       </tr>
                       <tr>
