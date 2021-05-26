@@ -76,11 +76,11 @@
             <div class="show-bottom">
                 @if (Auth::id() == $place->user_id)
                 <div class="show-edit">
-                {{-- 店の編集ページへのリンク --}}
-                {!! link_to_route('places.edit', 'この店を編集', ['place' => $place->id], ['class' => '']) !!}
+                {{-- 編集ページへのリンク --}}
+                {!! link_to_route('places.edit', '編集', ['place' => $place->id], ['class' => '']) !!}
                 </div>
                 <div class="show-delete">
-                {{-- 店の削除フォーム --}}
+                {{-- 削除フォーム --}}
                 {!! Form::model($place, ['route' => ['places.destroy', $place->id], 'method' => 'delete']) !!}
                 {!! Form::submit('削除', ['class' => '']) !!}
                 {!! Form::close() !!}

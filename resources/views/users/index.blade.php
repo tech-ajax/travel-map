@@ -4,8 +4,8 @@
     @if (Auth::check())
         <div class="index-container">
             {{-- オーナー登録ページへのリンク --}}
-                {!! link_to_route('places.create', '店舗登録はこちらから', [], ['class' => '']) !!}
-        <h1>{{ Auth::user()->name }}さんの店舗一覧ページです。</h1>
+                {!! link_to_route('places.create', '登録はこちらから', [], ['class' => '']) !!}
+        <h1>{{ Auth::user()->name }}さんのページです。</h1>
        
         <div class="index-grid">
             @if (count($places) > 0)
@@ -74,7 +74,7 @@
                         </table>
                         <div class="edit-link">
                             <a href="{{ route('places.edit', ['place' => $place->id]) }}">
-                            店舗編集はこちらです。
+                            編集はこちらです。
                             </a>
                         </div>
                         <div class="show-link">
@@ -97,8 +97,8 @@
     @else
         <div class="index-container">
             {{-- オーナー登録ページへのリンク --}}
-                {!! link_to_route('signup.get', '店舗登録はこちらから', [], ['class' => '']) !!}
-        <h1>店舗一覧</h1>
+                {!! link_to_route('signup.get', '登録はこちらから', [], ['class' => '']) !!}
+        <h1>リスト</h1>
        
         <div class="index-grid">
             @if (count($places) > 0)

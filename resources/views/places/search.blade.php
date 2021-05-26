@@ -5,7 +5,7 @@
     <div class="index-container">
       
         
-          <h1>【{{$search}}】の検索結果：店舗一覧</h1>
+          <h1>【{{$search}}】の検索結果：リスト</h1>
                <!--Google Maps API-->
           <div id="map"></div>
                 

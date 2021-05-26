@@ -9,7 +9,7 @@
                 <h1>ユーザー：{{ Auth::user()->name }}さんのページです。</h1>
                 <a href="{{ route('users.favorites',['id' => Auth::user()->id]) }}">お気に入りページはこちら</a>
                 
-                <h2>店舗一覧</h2>               
+                <h2>リスト</h2>               
                 <div class="index-grid">
                     @if (count($places) > 0)
                         @foreach ($places as $place)

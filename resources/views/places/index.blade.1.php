@@ -1,11 +1,11 @@
- <h1>店舗一覧</h1>
+ <h1>リスト</h1>
 
     @if (count($places) > 0)
         <table class="table table-striped">
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>店舗</th>
+                    <th>場所</th>
                 </tr>
             </thead>
             

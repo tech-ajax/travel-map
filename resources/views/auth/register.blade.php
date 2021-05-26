@@ -27,7 +27,7 @@
  !!}
                 </div>
                 <div class="register-form">
-                    <p>（ユーザーはお気に入り登録、オーナーは店舗登録が可能）</p>
+                    <p>（ユーザーはお気に入り登録、オーナーは店舗や施設の登録が可能）</p>
                 </div>
 
                 <div class="register-form">

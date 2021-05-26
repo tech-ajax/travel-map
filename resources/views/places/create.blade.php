@@ -4,7 +4,7 @@
     @if (Auth::check())
         <div class="create-container">
         
-            <h1>{{ Auth::user()->name }}の店舗登録ページ</h1>
+            <h1>{{ Auth::user()->name }}の登録ページ</h1>
             <p>※任意以外の項目は入力必須でございます。</p>
             
             

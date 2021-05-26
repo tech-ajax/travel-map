@@ -5,7 +5,7 @@
     <div class="index-container">
         
         
-          <h1>店舗一覧</h1>
+          <h1>リスト</h1>
      
         
         <div class="index-grid">
